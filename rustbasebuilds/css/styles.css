@@ -1,0 +1,66 @@
+body {
+	 background-size:cover;
+		background-repeat:no-repeat;
+
+	 background: url('images/background.jpg');
+}
+
+* {
+	color:white;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform:uppercase;
+}
+
+a:hover {
+    color: #bdbdbd;
+    text-decoration: underline;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.trending {
+-webkit-box-shadow: 1px 1px 25px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 25px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 25px 0px rgba(0,0,0,0.75);
+}
+
+
+.block
+{
+	height: 145px;
+	background: linear-gradient(
+      rgb(45, 45, 45),
+      rgb(48, 48, 48)
+    );
+}
+
+.steam {
+	display: inline;
+	float: right;
+	margin-top: 25px;
+}
+
+#steam-sign-main {
+	width: 120px;
+	height: 50px;
+}
+img#steam-sign-main:hover {
+  opacity: 0.7;
+  cursor:pointer;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    border: 0;
+    margin-left: 34px;
+    border-top: 2px solid #ce422b;
+}
+.navbar {
+	font-size: 20px;
+}
+.inner {
+	    margin-left: 35px;
+}
